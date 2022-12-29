@@ -52,6 +52,7 @@ hr {
 
 .middle-container{
     margin:100px 0;
+    
 
 }
 
@@ -60,7 +61,7 @@ hr {
 }
 
 .skill-row{
-    width: 50%;
+    width: 70%;
     margin: 100px auto 100px;
     text-align: left;
     line-height: 2;
@@ -94,13 +95,15 @@ hr {
 .facts{
     width: 20rem;
     float: left;
-    margin-right: 30rem;
+    margin-right: auto;
+    padding-right: 30px;
 }
 
 .travel{
     width: 18rem;
     float: right;
-    margin-right: 10%;
+    margin-left: auto;
+    padding-left: 30px;
 }
 
 .profile{
@@ -108,20 +111,12 @@ hr {
     margin: auto;
 }
 
-.contact-me {
-    background-color: #e4f9f5;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    float: none;
-}
-
-.btn {
+.btn{
     margin: 20px auto 70px auto;
     width: 15%;
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
     background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
     background-image: -o-linear-gradient(top, #11cdd4, #11999e);
     background-image: linear-gradient(to bottom, #11cdd4, #11999e);
     -webkit-border-radius: 8;
@@ -143,7 +138,6 @@ hr {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
@@ -159,7 +153,9 @@ hr {
     width: 30%;
 }
 
-.contact-msg{
-    width: 40%;
+.bottom-container{
+    background-color: #e4f9f5;
+    padding: 50px 0 20px;
+    width: auto;
     margin: 40px auto 60px;
 }
